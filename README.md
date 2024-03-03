@@ -1,11 +1,11 @@
 # CS5246
 
-Folders
+## Folders
 - eda: Scripts and data for EDA
 - generated: Scripts and data for data generation from models
 - notebook: shared code for various tasks
 
-Data generation
+## Data generation
 
 Approach \#1 is to generate articles from our data source, each with top k keywords extracted for prompt formulation.
 
