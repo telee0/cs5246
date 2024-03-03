@@ -9,7 +9,7 @@
 
 Approach \#1 is to generate articles from our data source, each with top k keywords extracted for prompt formulation.
 
-Each generation set is associated with a LLM and a specific format of prompt, such that the output is more consistent.
+Each generation set is associated with a LLM and a specific format of prompt, such that output is expected to be more consistent.
 
 All  generation sets each is denoted with a suffix character on paths.
 
