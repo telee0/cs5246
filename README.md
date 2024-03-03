@@ -6,4 +6,4 @@ Folders
 - notebook: shared code for various tasks
 
 Data generation
-- `x` - Pretrained AutoModelForCausalLM by Hugging Face Transformers "mistralai/Mistral-7B-Instruct-v0.1"
+- `x` - Pretrained AutoModelForCausalLM from Hugging Face Transformers library, named "mistralai/Mistral-7B-Instruct-v0.1"
