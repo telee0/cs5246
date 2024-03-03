@@ -1,6 +1,7 @@
 # CS5246
 
-## Folders
+## Organization in folders
+
 - eda: Scripts and data for EDA
 - generated: Scripts and data for data generation from models
 - notebook: shared code for various tasks
