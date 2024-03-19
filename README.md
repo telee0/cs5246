@@ -14,4 +14,5 @@ Each generation set is associated with a LLM and a specific format of prompt, su
 
 Each generation set is denoted with a suffix character on paths.
 
-- `x` - Pretrained AutoModelForCausalLM from Hugging Face Transformers library, named "mistralai/Mistral-7B-Instruct-v0.1"
+- `x` - Generation by top 10 keywords, using Pretrained AutoModelForCausalLM from Hugging Face Transformers library, named "mistralai/Mistral-7B-Instruct-v0.1"
+- `x2` - Generation by first 2 sentences, using Pretrained AutoModelForCausalLM from Hugging Face Transformers library, named "mistralai/Mistral-7B-Instruct-v0.1"
