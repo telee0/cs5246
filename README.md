@@ -16,3 +16,8 @@ Each generation set is associated with a LLM and a specific format of prompt, su
 - `cleaned_microsoft_2.zip`- Phi-2 data
 - `cleaned_mistral_2.zip`- Mistral data
 - `data_generated_gpt_2.zip` - GPT data
+
+Training the model is in folder `notebook/notebook_train.ipynb`
+```
+5-fold ROC AUC Score: 97.7%
+```
