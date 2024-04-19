@@ -1,0 +1,6 @@
+'Tony Blair will today face backbenchers and pressure from within his own party ahead of next month's general election. The Prime Minister is set to appear before both Houses of Parliament for what could be his final time as leader of the opposition, just days before he steps down from 10 Downing Street.'
+```python
+import random 
+words = ['blair', 'face'] 
+story = f"""Tony Blair will today {random.choice(['appear', 'arrive at','enter','step into'])} {random.choice('backbenches|Parliamentary debates')}  and {random.choices([True, False], weights=[0.5, 0.5] )[0]} pressure{'' if True else ', no!'} from within his very own {random.choices(["party","government",'council"])} ahead of next month\'s general election..""".strip().split() }
+

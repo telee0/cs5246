@@ -1,0 +1,19 @@
+Britain's Prime Minister David Cameron and Chancellor George Osborne have announced that they intend to take a strong stance against any potential changes to the United Kingdom's relationship with the European Union (EU) during negotiations. This announcement came as no surprise given their previous statements emphasizing the UK's commitment to maintaining its current level of access to, participation in, and contribution to the EU single market and customs union. 
+Cameron stressed that the Conservative Party remains committed to working together closely with the Labour Party and Liberal Democrats to ensure that all parties involved can work towards an agreement which benefits everyone in the country. He also emphasized his party's desire to protect jobs within British industry while still protecting consumer rights, particularly those associated with food standards set by Brussels. In addition, he highlighted how important it would be to continue funding public services such as healthcare and education. 
+In response to recent comments from Spanish prime minister Mariano Rajoy suggesting that countries receiving aid through the European Stability Mechanism should give something back in return, Cameron reiterated the government’s position that this money must remain available for those most in need and argued there are many other areas where financial contributions could instead go if necessary. 
+He concluded by reaffirming the UK's commitment to standing firmly alongside the rest of Europe when taking action on issues related to immigration reform and security measures designed to combat terrorism throughout the region."""
+
+
+def main(text):
+  import re
+  from nltk import word_tokenize
+  words = text.split() # Split the input string into separate words
+  for i in range(len(words)-2,-1,-1): # Iterate over each index in descending order starting from the third last
+      if len([w for w in [word_tokenize(' '.join(re.findall('\S+',text[i:]))) for x in ['a','b']] if w == words[i]]) > 0: # If the length of one or both of the substrings generated matches the target word, print the original sentence without modifying anything else
+          print(words[0]+'', end='') # Print the first word, add space
+          break;
+        words[i]='' # Replace the found matching word with empty character so that further iterations do not include same substring again
+     else: print("No match found") 
+
+
+main(input)

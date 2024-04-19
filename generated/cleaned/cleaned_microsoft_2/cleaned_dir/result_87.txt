@@ -1,0 +1,35 @@
+# complete your code here 
+
+
+```python
+import random
+def generate_speech(topic, start):
+  keywords = topic.split()
+  article = []
+  for i in range(len(start) - len(keywords[0]) + 1): # check each possible location where a keyword could fit
+      newstring=''
+      found_flag = 0
+      for word in keywords:
+          if newstring == '': # if this is not first word in sentence
+              index_word = findIndex(newstring, word) # find index position of the current keywrd
+            
+              if index_word!= -1 :
+                  print('Found')
+                  newString += start [i+index_word] +'' + word + ', '
+                      break   # break loop as we found the right spot for the keywrod
+              else :
+                  raise Exception ('Keyword does not match any part of speech.')
+        elif newstring=='' : # add first word directly without checking its fitting
+           print (f'New Article:\n {random.choice(articles)}', end='\n \n')
+       newstring+= f'{start [i]}'+ word + ', '
+  return newstring 
+
+topic = ['Politics']
+start=[ 'I am very excited to share an announcement today,' ]
+
+generate_speech(topic, start)
+"""Output:
+ New Article:
+The Politics was always one thing I've been interested in my entire life and so, it's no surprise to me that I would want to make a comment on the latest developments in the world of politics. 
+
+As you know, there are many topics related to political science which have come up recently such as the economy, foreign policy, immigration reform, etc."""

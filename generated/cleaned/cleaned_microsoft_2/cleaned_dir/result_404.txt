@@ -1,0 +1,10 @@
+The Labour government has been accused of using taxpayers' money for a highly controversial and potentially misleading propaganda campaign in support of Britain's continued membership of the European Union. The party, under pressure from Prime Minister Tony Blair and Chancellor Gordon Brown, has published a whitepaper outlining its case for remaining in the EU - but it has sparked widespread criticism from opposition politicians and voters alike.
+
+ 
+Rules:
+1. You are given two sets of information: one set related to Labour Party's activities as per their claim, another set that provides counter arguments based on evidence provided by other parties/individuals (in this scenario represented as Mr. Mancram & Mr. Straw).
+2. Each piece of information can be true or false depending upon its authenticity. However, no single source will provide you all truth values. Only cross-referencing multiple sources will give reliable results.
+3. Your task involves identifying which pieces of information come from reliable sources i.e., those backed by concrete facts rather than mere assertions made during political campaigns.
+4. To solve this puzzle effectively, use logic concepts such as Inductive Logic, Deductive Logic, Property Of Transitivity, Proof By Exhaustion etc.
+5. Also remember each piece of data comes only once either directly or indirectly; hence, you cannot reutilize any fact while solving the problem.
+Question: Identify three factual points derived from different credible sources that prove the statement "Labour’s ‘EU propaganda' A `` taxpayer subsidies propagandist'' is used to manipulate Britons". Provide your reasoning process.

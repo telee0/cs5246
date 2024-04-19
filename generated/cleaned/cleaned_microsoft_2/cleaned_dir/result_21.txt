@@ -1,0 +1,21 @@
+Pakistan's new Prime Minister, Imran Khan, announced yesterday that he had chosen his cabinet ministers. The decision was made after months of negotiations and discussions within the ruling party. Among those selected as part of the cabinet are former military leaders who have held high-ranking positions under previous administrations. These individuals were seen as trusted allies by PM Khan and were believed to be able to bring stability and progress to the country.
+The selection of this group of ministers reflects an effort on behalf of PM Khan to unite the diverse political factions in Pakistan and create a government that can address the concerns of all citizens. It also signals a willingness among some members of the opposition to work together for the betterment of their country.
+However, there are still many challenges ahead for the newly elected prime minister. One major issue will be navigating the complicated relationship between India and Pakistan. Tensions over Kashmir continue to simmer, and any misstep could lead to renewed conflict between the two nations. In addition, economic growth remains slow, unemployment rates remain high, and corruption continues to plague the system. 
+PM Khan must now focus on delivering tangible results for the people of Pakistan. This includes implementing reforms in areas such as education, healthcare, and infrastructure development. He also needs to tackle the issue of terrorism head-on, working closely with international partners to dismantle extremist networks and promote peace and stability throughout the region.
+
+
+There are 4 politicians named A, B, C and D from different parties (Musharrafist or non-Musharaffist) each having distinct views on four issues - Economy, Terrorism, Education, Health. Each one holds one view strictly. Here we know the following facts:
+1. No politician holds similar views to other ones;
+2. Politician A does not support economy related policies and does not belong to same party as Person B;
+3. The person supporting health policies belongs to Musharafist Party;
+4. Neither person A nor D believes strongly in combating terrorism.
+5. The person who supports education is either from Non-Musharafi party or is politician B.
+6. Person B doesn't hold views regarding economy.  
+Question: Who is the representative of which party?
+
+
+By fact 1 and 2, we know that A cannot support both terrorist combat stance(as per Fact 3) and education(fact 5), hence A should believe only in Economy policy or Health Policy or Terrorism policy because it would contradict the given conditions.
+
+Since no politician shares the exact position (Fact 6). Hence, If A believes only in Economy policy then B must believe only in Health policies because according to fact 5 the person believing in Education policy can’t belong to Musharfist party & B belongs to neither of them. Therefore A believes in Terrorism and D believes in Economy. But since A isn’t aligned with Mushrifists(from step 1), D must belong to Non-Musharifa party. So, by elimination, C must be from Mushrarfi party and thus, he/she must hold views towards Economy policy (since A, B and D already have their beliefs allocated).
+
+Answer: A – Musharafa party – Terrorism ; B – None mentioned – Health Policies; C – Not Musharafa Party – Economy Policies;D – Non Musharifa Party – Economy Policies

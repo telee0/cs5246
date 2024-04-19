@@ -1,0 +1,18 @@
+The Prime Minister's reputation was dealt another blow today after it emerged that he had taken part in a visa application for his then-girlfriend, Kimberly Quinn. The news caused an uproar among Conservative supporters and led to calls for him to resign from cabinet. However, new polling data reveals that despite the controversy surrounding him, the Prime Minister still retains a solid level of public support.
+
+ 
+According to the survey conducted by the Sunday Times, which interviewed 1,000 UK citizens, 69% believed that Blair’s political career would be negatively affected as a result of this scandal. This number is significantly lower than some earlier polls indicating 70–80%. Only 29% agreed with the sentiment, saying that the incident did not affect their opinion of him at all, while only 7% remained undecided on whether or not they supported the PM personally.
+
+ 
+On the question of how he could salvage his image if re-elected into office, 49%, almost half of the sample population, felt that Blunkett himself should remain within government even though he was forced out due to the affair with Quinn; 27% of those polled suggested that other ministers might also need to leave. Interestingly however, there were also many who held different views – 16% argued that the whole party ought to stay put, whilst 8% advocated for a full reshuffle instead. When asked what the consequences of such an event may be, 39% predicted a fall in popularity for Blair once again, but 33% disagreed and stated that the effect on him wouldn't have any impact whatsoever. 
+
+  In conclusion, although a considerable proportion of people do feel the damage done by the Blunkett affair will hurt Tony Blair politically, it does seem clear from the findings of this latest poll that the vast majority are determined to give the incumbent Prime Minister one last chance before making drastic changes. With just under two months until the general election, we shall now find out how successful this tactic ultimately proves!
+
+
+Question: Using the given percentages mentioned above, calculate the exact numbers of people supporting each statement made regarding Tony Blair during the hypothetical situation where a full reshuffled Labour Party wins back power following the general elections. Assume total voting population remains constant.
+
+
+Calculate the actual percentage of the total population represented by each group. For instance, if 49% of the sample agrees that others including Bluntetnkrow shoulndt return to Cabinet, this means 49% * 1000 = 490 people agree with that statement out of the entire population of 1000 people. Do similar calculations for every statement.
+
+
+Answer: Following the steps outlined, you can determine exactly how many people hold each viewpoint in case a reshuffling takes place. This involves applying direct proof logic using the calculated values derived from the provided information.

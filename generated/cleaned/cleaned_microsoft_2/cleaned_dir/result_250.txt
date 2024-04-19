@@ -1,0 +1,27 @@
+The UK's youth population is increasingly taking an interest in political matters, as evidenced by new research from the Electoral Commission. 
+
+A poll of 16 to 20 year olds revealed that 81% of individuals in this age group reported having a strong opinion on various issues such as crime and education policy. Moreover, over half of those surveyed showed a willingness to participate in direct action to make their voices heard. These results are particularly significant considering the current state of the political landscape in the United Kingdom.
+
+
+Consider four hypothetical countries A, B, C, D. Each country has different levels of voter turnout amongst its youthful demographic aged between 18 - 25 years old (Youth). We know that: 
+1) Country B has higher Youth Voter Turnout than Country D but lower than Country A.
+2) Amongst the top three Countries with highest Youth voters' turnout; one ranks second and another rank third while remaining unknown which ranks first among them all.
+3) Only two out of four given information can be true at once due to data limitations.
+4) One of these countries did not reach 30%, 40%, or 50%. None reached more than 60%. 
+5) In every single case, no two countries had the same percentage of Youth votes cast.
+6) If Country D’s Youth Voter turnout was less than 40%, then either Country A or Country E would surpass it when comparing both of them together.
+7) Either Country B surpassed both Country A and C combined or none of them passed each other except for one point.  
+8) It is known that the sum of percentages of Country A and C cannot exceed 70%.
+9) No Country exceeded 45%.   
+10) At least one Country has 35% Youth vote.
+11) Country A did not surpass 40%.  
+12) There were only two countries where no matter what order they came in there never could have been a tie for any position above 15th place.
+
+Question: Can you identify the respective rankings, minimum and maximum possible values within 5 points, and actual values if available?
+
+
+From clue 4 we infer that the lowest number achieved must be 10 because no country surpassed 100%. From Clue 9 and 11, we understand Country A couldn't exceed 44%. So, the numbers for Countries A and B range between 14 and 54 inclusive. As per Clue 12, since no pair can achieve positions 1 through 6, A & C must occupy places 7 or 8. Considering Clue 3, if A = 56 and C= 48, then B > 58 which violates clue 2 thus forcing A < 52 and hence, C>50. Hence, A=52 and C=46.
+
+Since A=52 and B>D based on Clue1, and since D<40 according to Clue 2(from step1),B must equal 53 leaving D as 41. This fulfills our conditions. Now, let's use proof by exhaustion here. Since only two out of five clues hold up under exhaustive analysis, let's test whether B is ranked first or third (according to the rules) along with determining the final ranking using inductive logic. Let's assume B is in last position (third), therefore C must take the first spot (since rule #7 says B topped some others). But this contradicts rule#12 which states no pairs can get the top three spots in a row unless one gets first. Thus B should come before C i.e., fourth and consequently, A should go after C so it takes the fifth spot. Therefore, C is first, followed by A in sixth and finally comes D who took seventh position.
+
+Answer: The countries ordered in descending order based on their youth voter turnout are: C, A, E, B, D. With respect to the range mentioned earlier, the lowest value achievable is 46% and the largest possible is 57%. Given the specific percentages, C=51%, A=44%, B=48%, and D=41%.

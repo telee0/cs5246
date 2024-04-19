@@ -1,0 +1,7 @@
+<html>
+        <head>
+            <title>News Article</title>
+        </head>
+        <body>
+            <p><strong style="font-size:20px;"> Faith schools Citizenship Warning Schools must Improve The Quality Of Citizenship Lessons, Or Social Cohesion And Democracy Will Suffer According To Education Watchdog <a href='' https://www.ofstedschoolsinspectoratescambodia.org/media/86514/Ofsted_school_report_-_Bristol _Cotswolds__Independent_faith_school_.pdf?download=1&file=attachment%3A0%7D&relid=4&refurl=' >The Education Watchdog </a></p>
+

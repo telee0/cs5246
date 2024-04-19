@@ -1,0 +1,37 @@
+"""
+    import random
+
+    def generate_sentence(): 
+        noun = ["head", "going", "wrong", "way"] # replace this list of nouns with your own set
+        verb1 = ["has the chance to tackle", "is headed towards", "is on track for"] # replace with different verbs
+        adjective = ["Bossy ", "Interfering ", "Wrongheaded", "Heading in the Wrong Direction"]
+        article, adjective2, preposition3, noun2, verb4, adverb5, determiner6, noun3 = ['a ', 'the ', 'to','some '] + [random.choice(noun) for _ in range (7)]
+        return f'{determiner6}{adjective[0]} {preposition} {adjective2}{noun} than it would have been'.capitalize()
+      
+    news = []
+    for i in range(100):
+        news.append(" ".join([generate_word(), generate_word(), generate_sentence().lower()])).strip())  # use lower case here as well
+        print(news[i], end='\r')   # print new line after every 10 sentences
+    ```
+- **Exercise 4** Write an application using Python strings to create multiple versions of user information from their data file. For instance if you are given `{"name": "Alex","address":"123 street"},{"name":"Sarah"}`. Your output could be two separate dictionaries; one containing all name fields and another only those with address field present or vice versa.
+    Ideas: You can split the dictionary into keys and values. Then check each value for its length. If its longer than 1 then include it else don't. Finally add both dictonaries together to get final answer.
+    Solution: 
+    ```python
+        user_data=[{"name":"Alex","age":21},{"firstName":"Sarah","lastName":"Doe"}, {"country":["USA"], "city":[None,"New York"] } ]
+        result= {}
+       
+        dict_keys = [*set([key for item in user_data for key in item.values()])][:-1] #get all possible keys excluding None/'' string
+
+        names={k:[*filter((lambda x: type(x)!=str),v)} if len([*filter((type!="")and ((not k=="address"))or (k not in v)) ]) > 0 else "" for k,v in enumerate({*map(list,[item["name"] for item in user_data])})}.items()
+         addresses={k:[*filter((lambda x: type(x)!=str),v)}if len([*filter((type!="")and ((not k=="city"))or (k not in v)) ])>0 else "" for k,v in enumerate({*map(list,[item["address"] for item in user_data])})}
+          
+        results={**names,**addresses} #use double star expression to combine result
+     ```
+ - **Exercise 5** Use python strings and lists comprehensions to write code which generates a random password consisting of atleast 3 letters, 2 numbers & special characters randomly selected from provided options: A, B, C,... Z, 1234567890,.!?@#$&%^&*. Make sure that generated character does not repeat within consecutive position more than once except first and last positions where repetition allowed.
+ Ideas :You will need three functions here: `characters`, `password generator function` & `validation` This function checks whether any repeated chars are found consecutively between start and end index. In validation we pass our input text & return True / False based on required criteria.
+ Solution :
+    ```python
+            from random import choice
+
+             characters='ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789.,?!@#$%^&*()-'+''.split(' ')[::-1]+['A','B','C']
+              passwords=[chars*len(chars)+chars*len(chars)+''.join([choice(chars)*j for j in [int(input('Enter number of times char

@@ -1,0 +1,19 @@
+"""
+from bs4 import BeautifulSoup
+import requests 
+response = requests.get('https://www.bbc.com/news')
+content = response.text  # get content from page source code
+html_page =BeautifulSoup(content, 'lxml') # parse html using beautifulsoup library
+article=[] 
+for p in html_page.find_all("p") : # find all paragraph tags on current HTML document 
+	paragraph = {'text':p.text}
+	sentences=[ sentence.strip() for sentence in nltk.tokenize.sent_tokenize(paragraph['text'])] # tokenizing each text into individual sentences 
+	words=[ word for sent in sentences[0:-1] for word in nltk.word_tokenize(sent) if not (len(word)!=3 or len(word)/5==2)] # removing stop-words from the list of words after splitting them based on space characters 
+
+	if any([w.isdigit() == True for w in words])!= False:
+		continue # ignore articles containing digits
+	elif re.search(r"[^a-zA-Z0-9\n ]",str())!=None:# remove punctuation marks except dot at beginning or end of the string
+		continue
+	else:
+		article+=[paragaph['text'],''.join(set(words)),sum([not x.islower() for x in set(words)],start=True),sum([x.istitle() for x in set(words)],start=True)]
+print(*article,"\n",sep="\t")

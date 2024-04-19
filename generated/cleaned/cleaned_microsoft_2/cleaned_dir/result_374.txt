@@ -1,0 +1,3 @@
+"""
+Complete the news article with 1000 words about politics with these starting words "What _______ divides the parties? What's the difference between Labor and Tory nowadays?"
+One Starbucks, one Rymans, and one small Greek Cafe are among those that were recently opened. And both parties have since moved into brand-new offices nearby - with Labour setting up an office only steps from where The Conservative Party will be located on Victoria St., right next door to Parliament! This proximity could potentially create some tension for them during this upcoming general election campaign which promises even more contentious debates than ever before due to Brexit issues."

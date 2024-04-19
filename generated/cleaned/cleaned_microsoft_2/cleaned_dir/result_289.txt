@@ -1,0 +1,17 @@
+```python
+import random
+
+
+def generate_news():
+    """Generate a random news story"""
+    nouns = ['lawyer', 'judge', 'pear']
+    verbs = ['conducted', 'investigated','served']
+    adjectives = ['celebrated', 'distributed'],['peacefully','careful','thoughtful']
+    adj1, adj2=random.choice(adjectives),random.choice(adjectives)
+    verb1,verb2,noun1,noun2,preposition='for' if (len(''.join([w for w in nouns]).split()) <= 3 and len(' '.join([w for w in preposition])) == 0 )else''
+     return f"{adj1} {random.choice(verbs)} {noun1}, {random.choice(NOUNS):}, on his birthday, which fell during a global pandemic," \
+    f"had been awarded the Nobel Peace Prize."\
+    
+    
+if __name__=='__main__':
+    print(generate_news())

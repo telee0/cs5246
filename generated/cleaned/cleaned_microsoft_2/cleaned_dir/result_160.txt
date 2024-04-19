@@ -1,0 +1,19 @@
+"""
+import random
+def generate_story(starting_words):
+ 	topics = ["Politics","Economy"]
+ 	article = ""
+ 	random.seed(2) #for reproducibility
+ 	for word in starting_words:
+ 		if word == "U":
+ 			art = art + "UK"
+ 		elif word == "R":
+ 			art = art + "$3bn" 
+ 		else:
+ 			topic = random.choice(topics)
+ 			article = article + "The "+topic+". Prime Minister, Gordon Brown recently announced that the government will be investing in new initiatives which are aimed at boosting the economy and creating more jobs." 
+ 	return article
+
+if __name__=='__main__':
+ 	USING_STARTING_WORDS=["UK", "rebate", "unjustified"]
+ 	print("Starting Story: ",generate_story(USING_STARTING_WORDS))

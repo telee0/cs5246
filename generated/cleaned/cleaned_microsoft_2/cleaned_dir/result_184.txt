@@ -1,0 +1,21 @@
+"""
+import re
+
+
+def rewrite_news(article):
+  # Write your own code here to complete the function.
+  new = ""
+  for word in article.split():
+      if len(word) > 1:
+          new += random.choice("abcdefghijklmnopqrstuvwxyz") + \
+                 random.choice('abcdefghijklmnopqrstuvwxyz')*int((len(word)-2)/2)+word[-1]+\
+                      random.choice('abcdefghijklmnopqrstuvwxyz')+'.' if re.search('^.*?([aeiou][a-z]?)$', word, flags=re.I) else word+'...'
+         else :
+             return f'"{word}", {random.randrange(-5, 5)}'.replace(".", "\.")
+     #print(new.join(), sep=" " )
+   # return new.strip() + """\nThe commission will be led by David Miliband."""
+
+if __name__ == '__main__':
+  article = input().strip()
+  new_output = rewrite_news(article).title()
+  print (new_output)

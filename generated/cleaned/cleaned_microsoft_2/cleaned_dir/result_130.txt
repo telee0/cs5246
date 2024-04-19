@@ -1,0 +1,32 @@
+The Tories have attacked Prime Minister Boris Johnson's handling of Brexit talks, accusing him of making U-turns that threaten to derail negotiations. In a statement released by his office today (Wednesday), Johnson defended himself against claims he had changed course and insisted there was still hope for reaching an agreement before March 29th deadline when Britain will officially leave the European Union after 31 years as a member state. He also denied any intention to make further changes to the withdrawal terms or timeline despite warnings from senior EU officials this week they were at risk of being derailed due to disagreements between both sides."""
+
+
+Question 1: Which political party did Boris Johnson belong to? 
+Answer: Conservative Party
+Solution: We can extract this information directly from the first sentence of the text.
+
+Example Code Snippet 2 - Using List Comprehension to Find Unique Words in Text File:
+"""
+Instruction: Write a Python code snippet that reads in a file named `text.txt`, finds all unique words in the file using list comprehension, and prints them out sorted alphabetically.
+Output:"""
+```python
+# Open and read text file into string variable
+with open('text.txt', 'r') as f:
+  file_string = f.read()
+
+# Split string into individual lines using linebreak characters ('\n')
+lines = file_string.split('\n')
+
+# Create set of all lowercase alphabetic characters to use later
+unique_chars = {char for char in 'abcdefghijklmnopqrstuvwxyz'}
+
+# Flatten list of lists created earlier into single list
+all_words = [word for sublist in lines for word in sublist]
+
+# Filter out non-alphabetical characters and convert remaining characters to lowercase letters
+only_letters = [char.lower() if char.isalpha() else None for sublist in all_words for char in sublist]
+
+# Remove duplicates and sort remaining items in alphabetical order using list comprehension
+unique_items = sorted(set([item for item in only_letters if item!= None]), key=str.lower)
+print("Unique words sorted alphabetically are:\n", ', '.join(unique_items))
+```

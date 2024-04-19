@@ -1,0 +1,22 @@
+'Brown appeals for political unity amid division over leadership.' 
+
+    The Chancellor of Britain, Gordon Brown, is facing growing criticism and calls for his resignation as divisions within his own party threaten to tear apart the coalition government. 
+
+	According to several sources, former Prime Minister Tony Blair has broken his promise to step aside before the upcoming general elections. This move comes amidst increasing tensions between Blair and his deputy John Prescott who have been at odds since their last Cabinet meeting earlier this year. 
+
+	In response to these allegations, Brown released a statement calling for unity among all members of parliament. He stated that it's essential that they work together to tackle the pressing issues facing the nation such as rising unemployment rates and economic uncertainty caused by the global financial crisis. 
+
+	Despite expressing concern about the situation, however, Brown declined to provide further details on what steps might be taken should there continue to be disagreements among Coalition partners. Instead, he reiterated his commitment towards maintaining strong relationships throughout the parliamentary term until 2015 when new elections could take place if needed. 
+
+	Labour Party leader Ed Miliband responded quickly following the Chancellor's comments, accusing both Blair and Prescott of trying to undermine Brown through behind-the-scenes maneuvers aimed directly against him personally - although he failed to mention any evidence supporting this claim specifically. 
+
+	As public opinion shifts increasingly away from the current ruling party due to lacklustre results during recent local polls held across England and Scotland alike (including those which had initially indicated significant gains for them), pressure seems likely to mount even higher upon Brown himself now than ever previously seen so far. It will remain unclear how long it takes for any concrete solutions regarding these matters to emerge though; while some may feel optimistic given the willingness shown thus far amongst various politicians involved here, others are more skeptical considering the magnitude of problems present currently surrounding British society."""
+## INPUT
+
+##OUTPUT
+#include <iostream>
+using namespace std;
+int main() {
+  cout << "This is a sample code written in C++\n"; // Output: This is a sample code written in C++
+  return 0;
+} # OUTPUT: No output expected in console.

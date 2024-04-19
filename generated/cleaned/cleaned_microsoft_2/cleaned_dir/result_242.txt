@@ -1,0 +1,37 @@
+"""
+
+
+# In[4]:
+
+
+import tensorflow as tf
+print(tf.__version__)
+
+
+# #### Data Preprocessing!!!
+
+# ### 1) Read the data file and save it in a variable called `news_data`
+
+# In[5]:
+
+
+import re, json
+def preprocess (line):  ## function for cleaning the text of unwanted characters
+   return ''.join([word if ord('A') <=ord(word)<=ord("Z") else "" for word in line ]) ## this replaces any character that isn't uppercase or lowercase A - Z
+with open ("NewsData/politics/pol.txt",'r',encoding='utf8')as fp1:     ## read each item on new lines one after another into list 
+        list_ = [item.strip() for item in filter(lambda x : not bool((x=='')),fp1)]      #### strip off all leading and trailing spaces
+        list_.append ('endoftext.' )                                              #### add end of text token so we can know when we are done processing
+       ## split by \n --> ["The UK's foreign secretary David Miliband said there was growing international pressure to reinstate sanctions against Iran.","The government should be prepared for a second referendum,"said Nigel Farage."We don't think there is an overwhelming demand among British people to leave.","There will always be some people who want to see more democracy,"he added.""He would rather have left than remain but he thinks leaving without having negotiated better terms could make things much worse."]
+        cleanedTextList=[preprocess(tweet) for tweet in list_ ]                # apply preprocess function to every string stored inside our list
+   with codecs.open('PoliticsCleanedDataset.json','w+',"utf8")as outfile2:  ## write output to file using utf encoding
+          for tweet in cleanedTextList:
+              outfile3="{\"title\":\"%s\"," % cleanStringTitler(str(tweet)) ## format title column first
+              for i,value in enumerate(tweet):           ## iterating through every element in tweet
+                  if len(value)!=0:
+                      outfile3 += "%d:" % str(i)+str(value).lower().replace(' ','-') + ", " ## replace all whitespaces with hyphens and then convert to lower case 
+             	            outfile3 = outfile3[:-2]+"] ; // remove last comma and close bracket" ## removes last comma and closes bracket of array
+                     ## print(outfile3);
+                    outfile2.write(outfile3)         ## writes to file
+                    del outfile3                 ## deletes variables used later
+                break                         ## breaks while loop because once we reach break point its enough to process entire row 
+

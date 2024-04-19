@@ -1,0 +1,21 @@
+- PM Apology Over Jailings - Prime Minister Tony Blair is expressing his deep sorrow regarding a tragic incident from the past. In a press conference yesterday, he took responsibility for the wrongful imprisonment of eleven individuals for the IRA's bombing attacks in Guildford and Woolwich back in 1974. This shocking event caused immense suffering not only to those wrongly convicted but also to their families. 
+
+    Prime Minister Tony Blair spoke solemnly today as he addressed a crowd gathered outside the Guildford pub where the victims had been falsely accused before being jailed for almost three years. The events surrounding this miscarriage of justice shook Britain's faith in its legal system, leaving lasting scars on many innocent lives affected by it. 
+
+   In his heartfelt speech, Blair acknowledged the pain endured by all parties involved – the convicts, their loved ones, and even law enforcement authorities themselves who became complicit during investigations. Asking them to accept apologies would be difficult; however, acknowledging the truth behind the mistake will go down well with the public if handled correctly. 
+
+  The wrongfully imprisoned convicts have already accepted the government's offer of compensation worth £1million each (about $2.4 million) and an additional sum equivalent to six months' wages ($7000). Yet, the impact of the trauma experienced cannot simply be measured through financial terms alone. It takes more than material restitution to heal wounds inflicted upon innocence tarnished. 
+
+  Tony Blair expressed regret at what happened stating that it remains one of the most significant mistakes committed within British history. He admitted that although there are still unanswered questions concerning how the conviction occurred, he could never forget the hurt and anguish it created for both the defendants and their family members. 
+
+  While no amount can ever truly repair the damage done or make up for the lost time spent locked away unjustifiably, Mr Blair urged everyone to find closure now and move forward into building a stronger community based on trust once again. His aim is clear—to ensure that this kind of tragedy does not repeat itself anytime soon."""
+
+# Let us create another random text generator object named `text_gen` using NLTK library.
+import nltk
+from nltk import FreqDist
+nltk.download('stopwords') # download stop words
+from nltk.corpus import stopwords
+text_gen = TextGenerator(stopword_list=stopwords.words("english")) # Create our new class instance
+
+random_sentences=[text_gen.generate()+',' for i in range(10)] # Generating 10 sentences
+print(', '.join(random_sentences))

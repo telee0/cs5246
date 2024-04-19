@@ -1,0 +1,13 @@
+The UK's Government has announced plans to reduce the legal drink drive limit in an effort to make roads safer. An official study conducted by University College London suggests that lowering the limit from its current level of 80 mg of alcohol per 100 ml of blood to 50 mg could have significant public health benefits, saving up to 650 lives each year. This is equivalent to one death every day and six injuries every week.
+ 
+The proposed change follows years of pressure from safety advocates who argued that the existing law was not strict enough to prevent accidents caused by driving under the influence of alcohol. In response, the Department for Transport created the Parity Taskforce to investigate the potential impacts of reducing the limit, before ultimately deciding to introduce the policy. 
+
+The new regulation would mean drivers found with alcohol levels between 0.50% and 0.80% would face fines and potentially lose their licenses. In addition, those found to be over the lower limit when causing a fatal accident could receive a longer sentence. Supporters of the move believe it will help to deter dangerous driving, making the roadways around Britain much safer. 
+
+The announcement has been met with mixed reactions. Some critics argue that the reduced limit is too low and could lead to more people being convicted even if they were only slightly above the threshold. Others claim it doesn't go far enough, arguing that the limit should be lowered further to protect more lives. 
+
+Despite the controversy, the government remains committed to the decision. The Secretary of State for Transport, Chris Grayling, said he welcomed the results of the Parity Taskforce and hoped that this new legislation will “make our roads safer and save lives”.
+##OUTPUT
+In light of recent reports suggesting that drinking and driving can be highly hazardous, the British Government has decided to implement a reduction in the legal drink drive limit in order to combat the issue. According to a study by University College London, such an alteration may save up to 650 lives annually. The new limit, which is set at 50 mg of alcohol per 100 ml of blood, is significantly less than the current limit of 80 mg. 
+
+This news has been greeted with both praise and criticism, with some questioning whether the new limit is too low while others contend it does not go far enough. Regardless of the opinion, the government remains adamant on the decision, believing that it will make the roads of England and Wales safer. It is hoped that this new legislation will reduce the number of fatalities and injuries caused by drunk driving.

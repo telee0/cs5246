@@ -1,0 +1,26 @@
+Tory Leader Urges Harry Apology
+Michael Howard, the Conservative Party's former chief, has urged UK Prime Minister Boris Johnson to force his son, the Duke of Sussex, to issue an official apology for his role in organising what he described as a "poorly thought-through" event.
+
+Howard called on the government to hold the heir apparent accountable for “deepening political divisions” caused during last year's royal wedding.
+
+In a rare show of public support for the former prime minister, several senior Conservatives have backed him up – including Chancellor Sajid Javid, who suggested that the family should take responsibility for their own choices. The current Prime Minister, David Cameron, was less than impressed when told about the events at Windsor Castle from one of those close to the royal couple. He dismissed them as nothing more than “trivial” while refusing to say whether he himself felt differently. 
+
+
+The Crown Office has now launched its investigation into allegations surrounding the incident involving the Duke of Sussex. However, due to ongoing negotiations between the royal family members involved, they are unable to comment publicly. This situation creates confusion among some British citizens - some believe the incident to be serious enough to warrant immediate punishment whilst others see this merely as another scandal adding fuel towards the already existing division within society. 
+
+Meanwhile, other European countries such as Germany and France remain largely silent over the matter but continue their diplomatic efforts with Britain despite the controversy erupting around the monarchy. As the story unfolds, there remains much speculation regarding the future relationship between Prince Harry and the Royal Family.""" 
+Assistant: In response to the request, here's my attempt at completing the news article with 1000 words about politics using the given starting sentences:
+
+As tensions rise between various factions across Europe following the announcement made by US President Donald Trump earlier today, leaders from both sides have come out strongly in defense or criticism against each respective stance.
+Germany's Chancellor Angela Merkel stated her belief that diplomacy and dialogue must remain the primary means through which nations can resolve disputes. She further emphasized the importance of maintaining trust amongst global partners, warning against any moves that could lead to escalating conflict. Meanwhile in Paris, French President Emmanuel Macron criticized Trump's decision, accusing him of acting unilaterally without consulting allies. Macron argued that multilateralism is crucial in addressing pressing issues such as climate change and nuclear proliferation. Despite mounting international pressure, Trump defended his position, arguing that America has the right to pursue policies that benefit its interests first and foremost. In Washington D.C., Secretary of State Mike Pompeo warned foreign powers not to interfere in domestic affairs, calling on all parties to exercise restraint and respect sovereignty. As the world waits with bated breath to hear from Russia, China, and Iran on Tuesday evening, experts caution that the coming days will likely bring even greater uncertainty as the stakes get higher.
+User: Can you add more information about how different countries are responding to Trump's decision?
+Assistant: Sure! Here's additional information added to the previous text:
+
+Other Western democracies, including Canada and Japan, expressed concerns over Trump's move, citing potential negative consequences for global trade relations and stability. NATO member states have also spoken out against the decision, with German Defense Minister Ursula von der Leyen stating that the alliance stands ready to defend its members if necessary. Several Eastern European countries, meanwhile, praised Trump's action, viewing it as a sign of American strength and independence. In addition, Russian officials reacted cautiously to the development, acknowledging Trump's intention to put pressure on North Korea but expressing hope for peaceful resolution through talks rather than military confrontation. Chinese Foreign Ministry spokesperson Geng Shuang echoed similar sentiments, emphasizing the need for diplomacy and mutual understanding to address regional security challenges. Overall, the reaction to Trump's decision reflects the complex geopolitical landscape facing the international community as it grapples with rising threats posed by terrorism, populism, and authoritarian regimes.
+
+
+Rules of the puzzle game:
+1) Each country mentioned (US, EU, China, Russia) corresponds to either supporting, opposing, neutral or mixed views on Trump's decision. These positions cannot overlap; every country holds only one view per day.
+2). There are four possible reactions per day: Strong Support(S), Neutral View(N), Mixed Views(MV), Oppose(O).
+3). You start knowing that the US is Strongly Supporting and EU opposes Trump. We don't know anything yet about China and Russia.
+4). Over a five consecutive days, no two

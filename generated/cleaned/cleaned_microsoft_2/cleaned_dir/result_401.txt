@@ -1,0 +1,35 @@
+The day is long, the sky's blue
+And I'm feeling good as new
+I've got my thoughts in line, I'm thinking "Bout Time,"
+To make some sense out of this life.
+
+Gonna take a deep breath, no stress
+Just clear away all the dust in my mind
+Come on John Lennon, let's sing along
+All we need is love, and peace all around.
+
+
+Let us consider five people involved in political discussions related to the paragraph above - Gordon Brown (GB), Thabo Mbeki (TB), Tanzanian President Jakaya Kikwete (TPK) who signed the loan agreement (TPA), and the representative from the Overseas Development Institute (ODO). 
+
+Each person either supports or opposes the idea of apologizing for the UK's colonial past, each holds one of four viewpoints namely: Strongly Supports (SS), Moderates (M), Opposes (O), and Indeterminate (ID). No two persons hold exactly the same viewpoint nor can they have the exact opposite viewpoints.
+
+Here are your clues:
+
+1. GB neither strongly supports not opposes the concept.
+2. TB does not oppose the concept but someone else does. 
+3. TPA doesn't support the concept.
+4. ODO has an opposing viewpoint to GB. 
+5. Someone other than TB and TPA supports the concept.
+6. Only one person moderates their position towards the topic.
+7. At least three individuals have indeterminate positions.
+
+Question: What stance do each individual hold regarding the issue?
+
+
+Start by creating a 5x5 table where each column represents a different individual and each row represents one possible viewpoint. Label them accordingly SS, M, O, ID. Fill up known facts based on clue 1 & 4, then use deductive reasoning through clues 2 & 3 to fill more cells. This will lead you to know that GB must be moderating his opinion because he cannot oppose (clue 6) so therefore GB = M. Now only the views of TB and TPA remain. Since TPA didn’t support the concept according to clue 3, it leaves TB supporting (S) because someone else did (clues 5 & 7) leaving TPA to be opposed (O). Then finally assign ID status to GB because at minimum there needs to be one indecisive party (Clue 7) hence GB = ID.
+By process of elimination (proof by exhaustion) and using inductive logic, since everyone else now knows what their stance is except for TPK who hasn‘t been assigned any yet, TPK has to be oppositional too. Therefore, assign ID status again to TPK. Also assigning SS status to ODO as per Clue 7. Lastly, remaining undecided is represented by ID for ODO. 
+Answer: Thus, the stances held respectively are:
+   Gordon Brown – Moderate
+  Thabo Mbeki      – Support
+Tanzanian President Jakayako Kikwete – Oppose
+Representative from Overseas Development Institution     – Indeterminate

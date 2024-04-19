@@ -1,0 +1,15 @@
+mp_attacked = True  # boolean variable to indicate whether or not an MP is attacked
+    if mp_attacked == True:
+      mugger_num = 6  # number of muggers
+      amount_taken = 600.00  # amount taken from MP (in pounds)
+      passport_stolen = True  # flag indicating if passport was stolen
+      location = 'Nairobi'  # location of incident
+
+      print("MP", MP, "has been attacked by", mugber_num, "-strongmen in", location,".")
+      print(f"He suffered theft of more that {amount_took} pounds ", end="") 
+      if passport_stolen == True:
+        print ("and his passport was also stolen.") 
+      else:
+       print ("." )
+    else:
+      print ("No such event occurred." ) 
