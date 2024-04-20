@@ -17,7 +17,14 @@ Each generation set is associated with a LLM and a specific format of prompt, su
 - `cleaned_mistral_2.zip`- Mistral data
 - `data_generated_gpt_2.zip` - GPT data
 
-Training the model is in folder `notebook/notebook_train.ipynb`
+
+The notebook used for training is in folder `notebook/notebook_train_BPE.ipynb`
 ```
-5-fold ROC AUC Score: 97.7%
+> pip install -r requirements.txt
 ```
+
+The performance of the final LGBM classifier trained on 10-folds cross validation
+| Metric  | Class 0 (Real)  | Class 1 (Fake) |
+|---------|----------|----------|
+| Precision | 0.984   | 0.956   |
+| Recall    | 0.872   | 0.995   |
